@@ -1,25 +1,36 @@
 //1
 function countToTen(){
-  
+  for(let i = 1; i<=10; i++) {
+      console.log(i);
+  }
 }
 
 //2
-function countFromOne(){
-  
+function countEveryOdd(){
+for(let i = 0; i <= 10; i++){
+      if ( i === 0){
+          console.log(i)
+      }
+      else if (i % 2 != 0) {
+          console.log(i)
+      }
+  }
 }
 
 //3
-function countEveryEven(){
+function isNegative(){
   
 }
 
 //4
-function countEveryOdd(){
+function betweenFiveAndTwenty(){
   
 }
 
 //5 
-function countEvens(){
+function isAllLowerCase(){
   
 }
 
+//countToTen()
+countEveryOdd()
