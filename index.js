@@ -18,7 +18,10 @@ for(let i = 0; i <= 10; i++){
 }
 
 //3
-function isNegative(){
+function isNegative(num){
+    if(num >= 0){
+        return false
+    } return true 
   
 }
 
